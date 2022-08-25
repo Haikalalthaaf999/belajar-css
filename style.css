@@ -1,0 +1,66 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    position: center;
+    top: 0;
+    background-color: aqua;
+    padding: 10px 20px;
+    color: black;
+    z-index: 100;
+}
+
+header .title{
+    float: left;
+    width: 30%;   
+}
+
+nav{
+    width: 70%;
+}
+
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    padding: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+
+#home, #about, #contact{
+    text-align: center;
+    position: relative;
+    font-size: 100px;
+    height: 100vh;
+}
+
+#home div, #about div, #contact div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+#home{
+    background-color: aqua;
+   
+}
+#about{
+    background-color: B ;
+    
+}
+#contact{
+    background-color: rgb(0, 255, 145);
+   
+}
+marquee{
+    font-size: 200px;
+}
